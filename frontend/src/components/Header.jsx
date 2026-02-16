@@ -39,16 +39,19 @@ export const Header = () => {
       }`}
     >
       <nav className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
+        {/* Flex container to keep Logo and Nav on the same line */}
+        <div className="flex justify-between items-center">
           <div 
-            className="text-2xl font-bold cursor-pointer"
-            style={{ color: '#61525a' }}
+            className="cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            JF Balloons
+            <img 
+              src="/images/JBLogo.png" 
+              alt="JF Balloons Logo" 
+              className="h-20 w-auto object-contain"
+            />
           </div>
-
+          
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
@@ -78,7 +81,7 @@ export const Header = () => {
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
-        </div>
+        </div> {/* This closes the new flex div */}
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (

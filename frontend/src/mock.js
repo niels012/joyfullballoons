@@ -155,44 +155,44 @@ export const mockData = {
   gallery: [
     {
       id: 1,
-      url: 'https://images.unsplash.com/photo-1602328790041-ee36d98e677c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-      alt: 'Colorful balloon arrangement'
-    },
-    {
-      id: 2,
-      url: 'https://images.unsplash.com/photo-1764257416209-e2044659503f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-      alt: 'Heart-shaped balloon decoration'
-    },
-    {
-      id: 3,
-      url: 'https://images.unsplash.com/photo-1764344832838-f53060686020?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-      alt: 'Professional balloon display'
-    },
-    {
-      id: 4,
-      url: 'https://images.unsplash.com/photo-1626149136691-78e3977b3d69?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-      alt: 'Classic balloon string arrangement'
-    },
-    {
-      id: 5,
-      url: 'https://images.unsplash.com/photo-1765850261645-69a4734ae89e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-      alt: 'Event seating with balloons'
-    },
-    {
-      id: 6,
-      url: 'https://images.unsplash.com/photo-1768725844871-631e23027973?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-      alt: 'Bridal shower balloon arrangement'
-    },
-    {
-      id: 7,
-      url: 'https://images.unsplash.com/photo-1769230382595-9c404d0cfdc4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-      alt: 'Professional event setup'
-    },
-    {
-      id: 8,
-      url: 'https://images.unsplash.com/photo-1759433582490-54f92e32c6fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-      alt: 'Artistic balloon arrangement'
+      url: '/images/creation1.jpg',
+      alt: 'first creation1'
     }
+    // {
+    //   id: 2,
+    //   url: 'https://images.unsplash.com/photo-1602328790041-ee36d98e677c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Colorful balloon arrangement'
+    // },
+    // {
+    //   id: 3,
+    //   url: 'https://images.unsplash.com/photo-1764344832838-f53060686020?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Professional balloon display'
+    // },
+    // {
+    //   id: 4,
+    //   url: 'https://images.unsplash.com/photo-1626149136691-78e3977b3d69?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Classic balloon string arrangement'
+    // },
+    // {
+    //   id: 5,
+    //   url: 'https://images.unsplash.com/photo-1765850261645-69a4734ae89e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Event seating with balloons'
+    // },
+    // {
+    //   id: 6,
+    //   url: 'https://images.unsplash.com/photo-1768725844871-631e23027973?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Bridal shower balloon arrangement'
+    // },
+    // {
+    //   id: 7,
+    //   url: 'https://images.unsplash.com/photo-1769230382595-9c404d0cfdc4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Professional event setup'
+    // },
+    // {
+    //   id: 8,
+    //   url: 'https://images.unsplash.com/photo-1759433582490-54f92e32c6fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
+    //   alt: 'Artistic balloon arrangement'
+    // }
   ],
 
   // Why choose us benefits
