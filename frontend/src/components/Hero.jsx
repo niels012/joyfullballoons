@@ -47,7 +47,7 @@ export const Hero = () => {
             className="text-xl md:text-2xl mb-8 leading-relaxed"
             style={{ color: '#736c64' }}
           >
-            Balloon Décor, Backdrops, Centerpieces, Bedroom Decor & Gift Balloons Delivered to You
+            Balloon Decor, Backdrops, Centerpieces, Bedroom Decor & Gift Balloons Delivered to You
           </p>
 
           {/* CTA Buttons */}
