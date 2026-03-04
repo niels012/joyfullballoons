@@ -17,7 +17,7 @@ export const mockData = {
   // Event types
   events: [
     { name: 'Birthday Balloons', icon: 'cake' },
-    { name: 'Valentines Balloons', icon: 'heart' },
+    { name: 'All Occasions Balloons', icon: 'heart' },
     { name: 'Baby Shower Balloons', icon: 'baby' },
     { name: 'Gender Reveal Balloons', icon: 'gift' },
     { name: 'Bridal Shower Balloons', icon: 'gem' },
