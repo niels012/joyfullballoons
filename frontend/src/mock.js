@@ -58,7 +58,7 @@ export const mockData = {
     },
     {
       id: 3,
-      name: 'Balloon-in-Balloon',
+      name: 'Deluxed Stuffed balloon',
       price: '$75–$120',
       description: 'Unique layered design that wows',
       image: 'https://images.unsplash.com/photo-1764344832838-f53060686020?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85'
