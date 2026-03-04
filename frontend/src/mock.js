@@ -3,11 +3,11 @@
 export const mockData = {
   // Contact info placeholders
   contact: {
-    phone: '(555) 123-4567',
+    phone: '954 398 2245 , 754 261 3385',
     email: 'hello@joyfullballoons.com',
-    address: 'Your City, State',
+    address: 'Fort Lauderdale, Fl. 33309',
     socialMedia: {
-      instagram: 'https://instagram.com/joyfullballoons',
+      instagram: 'https://www.instagram.com/joyfullballoonarrangements',
       tiktok: 'https://tiktok.com/@joyfullballoons',
       facebook: 'https://facebook.com/joyfullballoons'
     },
@@ -155,44 +155,44 @@ export const mockData = {
   gallery: [
     {
       id: 1,
-      url: '/images/creation1.jpg',
-      alt: 'first creation1'
+      url: '/images/IMG_3004.png',
+      alt: 'Balloons Bear and Hearts Arrangement'
+    },
+    {
+      id: 2,
+      url: '/images/IMG_2999.jpg',
+      alt: 'Balloon arch with pink and white balloons'
+    },
+    {
+      id: 3,
+      url: '/images/IMG_3001.png',
+      alt: 'Balloon garland with pastel colors and greenery'
+    },
+    {
+      id: 4,
+      url: '/images/IMG_3002.png',
+      alt: 'Balloon backdrop with metallic accents'
+    },
+    {
+      id: 5,
+      url: '/images/IMG_3005.png',
+      alt: 'Balloon columns with vibrant colors'
+    },
+    {
+      id: 6,
+      url: '/images/IMG_3006.png',
+      alt: 'Balloon centerpiece with floral accents'
+    },
+    {
+      id: 7,
+      url: '/images/IMG_3007.png',
+      alt: 'Balloon mosaic with geometric design'
+    },
+    {
+      id: 8,
+      url: '/images/IMG_3008.png',
+      alt: 'Grab and go balloon bouquet with mixed colors'
     }
-    // {
-    //   id: 2,
-    //   url: 'https://images.unsplash.com/photo-1602328790041-ee36d98e677c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Colorful balloon arrangement'
-    // },
-    // {
-    //   id: 3,
-    //   url: 'https://images.unsplash.com/photo-1764344832838-f53060686020?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Professional balloon display'
-    // },
-    // {
-    //   id: 4,
-    //   url: 'https://images.unsplash.com/photo-1626149136691-78e3977b3d69?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Classic balloon string arrangement'
-    // },
-    // {
-    //   id: 5,
-    //   url: 'https://images.unsplash.com/photo-1765850261645-69a4734ae89e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Event seating with balloons'
-    // },
-    // {
-    //   id: 6,
-    //   url: 'https://images.unsplash.com/photo-1768725844871-631e23027973?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Bridal shower balloon arrangement'
-    // },
-    // {
-    //   id: 7,
-    //   url: 'https://images.unsplash.com/photo-1769230382595-9c404d0cfdc4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Professional event setup'
-    // },
-    // {
-    //   id: 8,
-    //   url: 'https://images.unsplash.com/photo-1759433582490-54f92e32c6fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85',
-    //   alt: 'Artistic balloon arrangement'
-    // }
   ],
 
   // Why choose us benefits
