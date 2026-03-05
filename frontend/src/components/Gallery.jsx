@@ -1,10 +1,30 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { mockData } from '../mock';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const Gallery = () => {
   const [selectedImageId, setSelectedImageId] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prevIndex) => {
+      const nextIndex = (prevIndex + 1) % mockData.gallery.length;
+      setSelectedImageId(mockData.gallery[nextIndex].id);
+      return nextIndex;
+    });
+  }, []);
+
+  const goToPrevious = useCallback(() => {
+    setCurrentIndex((prevIndex) => {
+      const newIndex = (prevIndex - 1 + mockData.gallery.length) % mockData.gallery.length;
+      setSelectedImageId(mockData.gallery[newIndex].id);
+      return newIndex;
+    });
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setSelectedImageId(null);
+  }, []);
 
   // Find current index based on selected image
   useEffect(() => {
@@ -33,21 +53,7 @@ export const Gallery = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedImageId, currentIndex]);
-
-  const goToNext = () => {
-    const nextIndex = (currentIndex + 1) % mockData.gallery.length;
-    setSelectedImageId(mockData.gallery[nextIndex].id);
-  };
-
-  const goToPrevious = () => {
-    const prevIndex = (currentIndex - 1 + mockData.gallery.length) % mockData.gallery.length;
-    setSelectedImageId(mockData.gallery[prevIndex].id);
-  };
-
-  const closeModal = () => {
-    setSelectedImageId(null);
-  };
+  }, [selectedImageId, goToNext, goToPrevious, closeModal]);
 
   const currentImage = mockData.gallery[currentIndex];
 
@@ -91,15 +97,6 @@ export const Gallery = () => {
             className="relative max-w-4xl w-full max-h-[90vh] flex items-center justify-center"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Close Button */}
-            {/* <button
-              onClick={closeModal}
-              className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 hover:bg-gray-200 transition-colors"
-              aria-label="Close modal"
-            >
-              <X size={24} className="text-black" />
-            </button> */}
-
             {/* Image Container */}
             <div className="w-full h-full flex items-center justify-center">
               <img
