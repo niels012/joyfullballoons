@@ -45,21 +45,21 @@ export const mockData = {
     {
       id: 1,
       name: 'Basic Stuffed Balloon',
-      price: '$35–$50',
+      // price: '$35–$50',
       description: 'Perfect for gifts and party favors',
       image: 'https://images.unsplash.com/photo-1602328790041-ee36d98e677c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85'
     },
     {
       id: 2,
       name: 'Premium Stuffed Balloon',
-      price: '$60–$85',
+      // price: '$60–$85',
       description: 'Plush, flowers, or LED included',
       image: 'https://images.unsplash.com/photo-1768725844871-631e23027973?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxiYWxsb29uJTIwYXJyYW5nZW1lbnRzfGVufDB8fHx8MTc2OTU0MjIwOXww&ixlib=rb-4.1.0&q=85'
     },
     {
       id: 3,
-      name: 'Deluxed Stuffed balloon',
-      price: '$75–$120',
+      name: 'Deluxed Stuffed Balloon',
+      // price: '$75–$120',
       description: 'Unique layered design that wows',
       image: 'https://images.unsplash.com/photo-1764344832838-f53060686020?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxiYWxsb29uJTIwZGVjb3JhdGlvbnN8ZW58MHx8fHwxNzY5NTQyMjAzfDA&ixlib=rb-4.1.0&q=85'
     }
@@ -192,6 +192,16 @@ export const mockData = {
       id: 8,
       url: '/images/IMG_3008.png',
       alt: 'Grab and go balloon bouquet with mixed colors'
+    },
+    {
+      id: 9,
+      url: '/images/IMG_3010.png',
+      alt: 'Stuffed balloon with plush toy inside'
+    },
+    {
+      id: 10,
+      url: '/images/IMG_3011.png',
+      alt: 'Stuffed balloon with crown on top'
     }
   ],
 
