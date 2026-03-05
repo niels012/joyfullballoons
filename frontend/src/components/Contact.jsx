@@ -267,7 +267,7 @@ export const Contact = () => {
                       <p className="text-sm" style={{ color: '#736c64' }}>
                         <strong style={{ color: '#1e1919' }}>Payment Information:</strong> A 50% non-refundable 
                         deposit secures your booking. Remaining balance due 48 hours before your event. 
-                        Payment options: Venmo, CashApp, Zelle, or credit card.
+                        Payment options: CashApp, Zelle, or Cash.
                       </p>
                     </div>
 

@@ -18,11 +18,11 @@ export const Packages = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#1e1919' }}>
-            Packages That Fit Every Party
+            Balloon Stacks
           </h2>
           <p className="text-xl max-w-3xl mx-auto" style={{ color: '#736c64' }}>
-            Whether it’s a birthday, baby shower, or milestone celebration, we have a package 
-            that will make your home party unforgettable.
+            Small in Space. Big on Impact.
+            Our handcrafted balloon stacks add instant joy and style to any celebration
           </p>
         </div>
 

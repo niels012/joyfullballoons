@@ -69,7 +69,7 @@ export const mockData = {
   packages: [
     {
       id: 1,
-      name: 'Basic Party Pop',
+      name: 'Basic Balloon Stack',
       price: '$180–$250',
       features: [
         '6–8 ft garland',
@@ -81,7 +81,7 @@ export const mockData = {
     },
     {
       id: 2,
-      name: 'Most Popular Package',
+      name: 'Premium Balloon Stack',
       price: '$280–$380',
       features: [
         '8–10 ft organic garland',
@@ -93,7 +93,7 @@ export const mockData = {
     },
     {
       id: 3,
-      name: 'Deluxe House Party Setup',
+      name: 'De luxe  Balloon Stack',
       price: '$420–$600',
       features: [
         '10–12 ft premium organic garland',
