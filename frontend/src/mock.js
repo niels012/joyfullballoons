@@ -93,7 +93,7 @@ export const mockData = {
     },
     {
       id: 3,
-      name: 'De luxe  Balloon Stack',
+      name: 'Deluxe  Balloon Stack',
       price: '$420–$600',
       features: [
         '10–12 ft premium organic garland',
